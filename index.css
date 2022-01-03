@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family:sans-serif;
+    background-color:rgb(87, 5, 36);
+    min-width: 400px;
+ }
+
+input {
+ display: block; 
+ width: 100%;
+ box-sizing:border-box; /*In order to avoid overflow*/
+ padding: 10px;
+ border: 1px solid rgb(112, 41, 61);  
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 20px; /*10 px for top and bottom, and 20 pc for letf and right*/
+    background-color:rgb(57, 129, 105);
+    font-weight: bold;
+    border: 1px solid black;
+    color:seashell;
+}
+#delete-btn{
+  background-color: rosybrown;
+  color: rgb(17, 17, 14);
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+   padding-top: 5px;
+}
+
+
+li a {
+    color: rgb(139, 219, 173);
+ }
